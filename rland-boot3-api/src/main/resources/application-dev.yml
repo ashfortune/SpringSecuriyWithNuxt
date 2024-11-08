@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: boot3-api
+
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    username: rland
+    password: newhi1126
+    url: jdbc:mariadb://hi.newlecture.com:3306/rlanddb
+
+  jpa:
+    show-sql: true
+    generate-ddl: false
+    properties:
+      hibernate:
+        format_sql: true
+    hibernate:
+      ddl-auto: none
